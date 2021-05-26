@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	double atbat, hits;
+	double bataverage;
+
+	cout << "This is a program to find baseball player's batting average. " << endl;
+	cout << endl;
+	cout << "Please enter the number of hits the player earned. " << endl;
+	cin >> hits;
+	cout << "Please enter the number of times the player was at bat: " << endl;
+	cin >> atbat;
+	cout << endl;
+
+	bataverage = hits/atbat;
+	cout << "With an at bat number of: " << atbat << " and number of hits earned: " << hits << endl;
+	cout << "The player's batting average is: " << bataverage << endl;
+	 
+	
+	return 0;
+}
