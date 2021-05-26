@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	//Write a program that asks the user to enter the replacement cost of a building and then 
+	//displays the minimum amount of insurance that should be purchased for the property.
+	//for at least 80 percent of the amount it would cost to replace the structure.
+
+	  int minimum, rc;
+
+	cout << "This program calculates the minimum amount of insurance that should be purchased for the property based on replacement cost. " << endl;
+	cout << endl;
+
+	cout << "Please enter the total amount of replacement cost for the property: " << endl;
+	cin >> rc;
+	minimum = rc*80/100;
+	
+	cout << "The minimum amount of insurance that should be purchased is 80 percent of the cost to replace the structure. " << endl;
+	cout << "Your recommended minimum amount of insurance for replacement cost of " << rc << " is " << minimum << " U.S. dollars. " << endl;
+
+	return 0; 
+}
